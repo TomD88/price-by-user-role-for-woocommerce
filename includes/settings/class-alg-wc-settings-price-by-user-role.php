@@ -62,6 +62,11 @@ if ( ! class_exists( 'Alg_WC_Settings_Price_By_User_Role' ) ) :
 					}
 				}
 			}
+			if ( 'yes' === get_option( 'alg_wc_price_by_user_role_reset_usage_tracking', '' ) ) {
+				delete_option( 'pbur_lite_allow_tracking' );
+				delete_option( 'alg_wc_price_by_user_role_reset_usage_tracking' );
+				Tyche_Plugin_Tracking::reset_tracker_setting( 'pbur_lite' );
+			}
 		}
 
 		/**

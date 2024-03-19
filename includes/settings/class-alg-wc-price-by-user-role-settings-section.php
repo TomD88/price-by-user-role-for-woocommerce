@@ -69,6 +69,13 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Section' ) ) :
 						'type'    => 'checkbox',
 					),
 					array(
+						'title'   => __( 'Reset Usage Tracking', 'price-by-user-role-for-woocommerce' ),
+						'desc'    => __( 'This will reset your usage tracking settings, causing it to show the opt-in banner again and not sending any data.', 'price-by-user-role-for-woocommerce' ),
+						'id'      => 'alg_wc_price_by_user_role_reset_usage_tracking',
+						'default' => 'no',
+						'type'    => 'checkbox',
+					),
+					array(
 						'type' => 'sectionend',
 						'id'   => 'alg_wc_price_by_user_role_' . $this->id . '_reset_options',
 					),
