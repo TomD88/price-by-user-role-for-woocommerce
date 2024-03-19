@@ -72,10 +72,10 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 				);
 				$loop = new WP_Query( $args );
 				$c    = $loop->found_posts + 1;
-				if ( $c >= 2 ) {
+				/*if ( $c >= 2 ) {
 					add_filter( 'redirect_post_location', array( $this, 'add_notice_query_var' ), 99 );
 					return 'no';
-				}
+				}*/
 			}
 			return $option_value;
 		}
