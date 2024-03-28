@@ -1,20 +1,20 @@
 <?php
 /**
- * Plugin Name: Product Prices by User Roles for WooCommerce
- * Plugin URI: https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/
+ * Plugin Name: TD Product Prices by User Roles for WooCommerce
+ * Plugin URI: 
  * Description: Display WooCommerce products prices by user roles.
  * Version: 1.8.0
- * Author: Tyche Softwares
- * Author URI: https://www.tychesoftwares.com/
- * Text Domain: price-by-user-role-for-woocommerce
+ * Author: TD - Tyche Softwares
+ * Author URI:
+ * Text Domain: td-price-by-user-role-for-woocommerce
  * Domain Path: /langs
- * Copyright: © 2021 Tyche Softwares
+ * Copyright: © 2024 TD © 2021 Tyche Softwares
  * WC tested up to: 8.5.2
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Requires PHP: 5.6
  *
- * @package PriceByUserRole
+ * @package TDPriceByUserRole
  **/
 
 if ( ! defined( 'ABSPATH' ) ) {
